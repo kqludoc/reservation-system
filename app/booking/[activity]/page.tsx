@@ -491,7 +491,7 @@ export default function BookingPage({ params }: { params: { activity: string } }
               <CardHeader className="pb-2">
                 <CardTitle className="text-xs">Select Date</CardTitle>
               </CardHeader>
-              <CardContent className="flex-1 flex items-center justify-center">
+              <CardContent className="flex-1 items-center justify-center">
                 <MiniCalendar
                   selectedDate={formData.date}
                   onDateSelect={(date) => setFormData({ ...formData, date })}
